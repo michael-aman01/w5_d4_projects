@@ -7,6 +7,7 @@
 #  student_id :bigint           not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+  
 #
 class Enrollment < ApplicationRecord
     
@@ -20,6 +21,9 @@ class Enrollment < ApplicationRecord
         primary_key: :id,
         foreign_key: :course_id,
         class_name: :Course
+
+   
+
 
 end
 

@@ -39,3 +39,5 @@ ActiveRecord::Base.transaction do
 
   puts "Done!"
 end
+
+#Course.create!(name: 'Ruby for Beginners', instructor: User.second)
