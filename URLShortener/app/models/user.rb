@@ -10,6 +10,6 @@
 class User < ApplicationRecord
     validates :email, presence: true, uniqueness: true
 
-    
-
+    has_many :url_requests,
+            
 end
